@@ -38,3 +38,7 @@ You can connect to the database with the following steps:
 * change to postgres user: `su postgres -`
 * connect to databse: `psql`
 * and you can start running JPC related queries like: `SELECT TRUE AS IS_SUBSTRUCTURE WHERE 'C'::molecule('sample')|<|'CC';`
+
+# 4. Using docker-compose
+
+JPC can also be started with docker-compose. You should only do steps from #1 (extended with docker-compose installed) and than simply run `docker-compose up`
