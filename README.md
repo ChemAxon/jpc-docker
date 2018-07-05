@@ -6,11 +6,14 @@
     
 After settings you should have the following files in the directory:
 ```Dockerfile
+docker-compose.yml
 jpc.deb
 jpc-init.sh
 license.cxl
+LICENSE.txt
 README.md
 start.sh
+start-log.sh
 ```
     
 # 2. Building the image:
