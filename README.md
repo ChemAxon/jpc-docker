@@ -1,7 +1,8 @@
 # 1. Prerequisets
 
-* Copy the latest JPC (JPC 4.0: https://chemaxon.com/download?dl=%2Fdata%2Fdownload%2Fjpc%2F4.0%2Fjchem-psql_4.0.r20180510.134745_amd64.deb ) next to Dockerfile with the name: jpc.deb
-* Copy a PSQL license next to Dockerfile with name: license.cxl
+* docker installed
+* Copy the latest JPC (JPC 4.0: https://chemaxon.com/download?dl=%2Fdata%2Fdownload%2Fjpc%2F4.0%2Fjchem-psql_4.0.r20180510.134745_amd64.deb ) next to Dockerfile with the name: __jpc.deb__
+* Copy a ChemAxon PSQL license next to Dockerfile with name: __license.cxl__
     
 After settings you should have the following files in the directory:
 ```Dockerfile
