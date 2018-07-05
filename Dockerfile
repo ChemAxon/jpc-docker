@@ -7,7 +7,6 @@ RUN /etc/init.d/postgresql start && psql --command "CREATE USER docker WITH SUPE
 RUN echo "host all  all    0.0.0.0/0  md5" >> /etc/postgresql/10/main/pg_hba.conf
 RUN echo "listen_addresses='*'" >> /etc/postgresql/10/main/postgresql.conf
 VOLUME ["/etc/postgresql", "/var/log/postgresql", "/var/lib/postgresql"]
-MAINTAINER JPC Support "jpc-support@chemaxon.com"
 USER root
 RUN apt-get update && apt-get install -y openjdk-8-jdk
 COPY jpc.deb jpc.deb
