@@ -33,8 +33,9 @@ RUN /etc/init.d/postgresql stop
 # install JPC
 RUN dpkg -i jpc.deb
 
-# copy ChemAxon Licence
+# copy ChemAxon Licence and grant read permission
 COPY license.cxl /etc/chemaxon/license.cxl
+RUN chmod 666 /etc/chemaxon/license.cxl
 
 # init & start services
 RUN /etc/init.d/postgresql start
