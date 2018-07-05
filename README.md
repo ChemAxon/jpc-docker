@@ -45,4 +45,4 @@ You can connect to the database with the following steps:
 
 # 4. Using docker-compose
 
-JPC can also be started with docker-compose. You should only do steps from #1 (extended with docker-compose installed) and than simply run `docker-compose up`
+JPC can also be started with docker-compose. You should only do steps from [#1](https://github.com/ChemAxon/jpc-docker#1-prerequisets) (extended with docker-compose installed) and than simply run `docker-compose up`
