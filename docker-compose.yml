@@ -1,0 +1,23 @@
+version: '3'
+services:
+  jpc:
+    build: .
+    ports:
+      - "5432:5432"
+    entrypoint: /start-log.sh
+    image: chemaxon/jpc:latest
+    volumes:
+      - postgres_data:/var/lib/postgresql
+      - jpc_data:/var/lib/jchem-psql
+      - postgres_config:/etc/postgresql
+      - jpc_config:/etc/chemaxon/
+      - postgres_log:/var/log/postgresql
+      - jpc_log:/var/log/jchem-psql
+    
+volumes:
+  postgres_data:
+  postgres_log:
+  postgres_config:
+  jpc_data:
+  jpc_log:
+  jpc_config:
