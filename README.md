@@ -4,12 +4,13 @@
 * Copy a PSQL license next to Dockerfile with name: license.cxl
     
 After settings you should have the following files in the directory:
-* `Dockerfile`
-* `jpc.deb`
-* `jpc-init.sh`
-* `license.cxl`
-* `README.md`
-* `start.sh`
+```Dockerfile
+jpc.deb
+jpc-init.sh
+license.cxl
+README.md
+start.sh
+```
     
 # 2. Building the image:
 
