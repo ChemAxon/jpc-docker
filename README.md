@@ -5,7 +5,8 @@
 * Copy a ChemAxon PSQL license next to Dockerfile with name: __license.cxl__
     
 After settings you should have the following files in the directory:
-```Dockerfile
+```
+Dockerfile
 docker-compose.yml
 jpc.deb
 jpc-init.sh
