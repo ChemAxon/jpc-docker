@@ -1,5 +1,6 @@
 1. Prerequisets
 ===============
+
     * Copy the latest JPC (JPC 4.0: https://chemaxon.com/download?dl=%2Fdata%2Fdownload%2Fjpc%2F4.0%2Fjchem-psql_4.0.r20180510.134745_amd64.deb ) next to Dockerfile with the name: jpc.deb
     * Copy a PSQL license next to Dockerfile with name: license.cxl
     
@@ -14,6 +15,7 @@ After settings you should have the following files in the directory:
     
 2. Building the image:
 ======================
+
     * Run: docker build -t cxn/jpc:latest .
     
 This will build an image that is called cnx/jpc with the tag: latest. This image is based on Ubuntu 18.04 LTS (Bionic Beaver) and uses OpenJDK 8 (1.8.0_171) to run JPC.
@@ -23,6 +25,7 @@ You can connect to the database as:
     
 3. Starting a container
 =======================
+
     * Run docker run -ti cxn/jpc:latest
     
 This will start the container and PostgreSQL server in it. Also starts and initialises JPC servcie. For a little test it will:
