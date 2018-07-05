@@ -1,3 +1,5 @@
+This is only an example dockerization of [ChemAxon JChem PostgreSQL Cartride](https://chemaxon.com/products/jchem-engines). We don't suggest to use this exact image in production but it can provide an example to start building your own image.
+
 # 1. Prerequisets
 
 * docker installed
