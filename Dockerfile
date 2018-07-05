@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:18.04
 MAINTAINER JPC Support "jpc-support@chemaxon.com"
 
 # install postgres @ jdk
