@@ -23,7 +23,7 @@ start-log.sh
 
 * Run: `docker build -t cxn/jpc:latest .`
     
-This will build an image that is called cnx/jpc with the tag: latest. This image is based on Ubuntu 18.04 LTS (Bionic Beaver) and uses OpenJDK 8 (1.8.0_171) to run JPC.
+This will build an image that is called cxn/jpc with the tag: latest. This image is based on Ubuntu 18.04 LTS (Bionic Beaver) and uses OpenJDK 8 (1.8.0_171) to run JPC.
 You can connect to the database as:
 * USER: __postgres__
 * PASSWORD: __postgres__
