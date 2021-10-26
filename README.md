@@ -34,7 +34,7 @@ You can connect to the database as:
 
 * Run `docker run -ti cxn/jpc:latest`
     
-This will start the container and PostgreSQL server in it. Also starts and initialises JPC servcie. For a little test it will:
+This will start the container and PostgreSQL server in it. Also starts and initialises JPC service. For a little test it will:
 * create a table (as: `CREATE table test(mol Molecule("sample"), id int);`)
 * insert some data (with SQL: `insert into test(id, mol) values (1, 'c'), (2, 'cc'), (3, 'ccc');`)
 * selects all data (`select * from test;`)
